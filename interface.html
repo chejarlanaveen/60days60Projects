@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="interface.css">
+    <title>ColorFlipper</title>
+</head>
+<body>
+    <center>
+        <div class="input-1">
+            <input type="text" id="colorname" value=" " placeholder="Type any color....."/>
+        </div>
+        <div class="button-1">
+        <input type="Button"  class="color" value="Change Color" onclick="changebgcolor()">
+        </div>
+    </center>
+    <center>
+        <table>
+            <tr>
+                <td  id="red" onclick="changebgcolour(this.id)"  style="background-color:red"><img src="" alt=""></td>
+                <td id="white" onclick="changebgcolour(this.id)" style="background-color:white"><img src="" alt=""></td>
+                <td id="blue" onclick="changebgcolour(this.id)"  style="background-color:blue"><img src="" alt=""></td>
+                <td id="pink" onclick="changebgcolour(this.id)"  style="background-color:pink"><img src="" alt=""></td>
+            </tr>
+            <tr>
+                <td id="violet" onclick="changebgcolour(this.id)" style="background-color:violet"><img src="" alt="" > </td>
+                <td id="orange" onclick="changebgcolour(this.id)" style="background-color:orange"><img src="" alt="" ></td>
+                <td id="purple" onclick="changebgcolour(this.id)" style="background-color:purple"><img src="" alt="" ></td>
+                <td id="grey" onclick="changebgcolour(this.id)" style="background-color: grey"><img src="" alt="" ></td>
+            </tr>
+            <tr>
+                <td id="yellow" onclick="changebgcolour(this.id)" style="background-color:yellow"><img src="" alt="" ></td>
+                <td id="skyblue" onclick="changebgcolour(this.id)" style="background-color:skyblue"><img src="" alt=""></td>
+                <td id="green" onclick="changebgcolour(this.id)" style="background-color:green"><img src="" alt="" ></td>
+                <td id="peach" onclick="changebgcolour(this.id)" style="background-color:rgba(255, 254, 255, 0.018)"><img src="" alt="" ></td>
+            </tr>
+        </table>
+    </center>
+    <script src="interface.js"></script>
+</body>
+</html>
